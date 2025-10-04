@@ -54,7 +54,7 @@ def forward_propagation_network(inputs:np.ndarray, perceptrons:int, layers:int) 
     # Mensaje para identificar que entramos exitosamente a la función
     print("corriendo red con los siguientes parámetros:\n- entradas: {inputs}\n- perceptrones por capa: {perceptrons}\n- capas: {layers}\n".format(inputs=inputs, perceptrons=perceptrons, layers=layers))
     # Escribe tu código aquí
-    network_output = 0.0
+    network_output = 0.1
 
     # Return de la función: cálculo de "a" de la capa de salida
     return float(network_output)
