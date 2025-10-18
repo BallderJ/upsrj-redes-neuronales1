@@ -47,7 +47,7 @@ from perceptron.input_data import InputData
 #           - una suma ponderada de las entradas "z"
 #           - una salida "a" definida por su función de activación
 #
-class Perceptron:
+class Perceptron: 
     def __init__(self, inputs: list[InputData], b: float):
         self.inputs = inputs
         self.b = b
