@@ -9,7 +9,7 @@
 # ============================================================
 import sys, os, random
 import numpy as np
-from perceptron.input_data import InputData
+from perceptron.input_data  import InputData
 from perceptron.perceptron import Perceptron
 #############################################################################################################################
 # Algoritmo de propagación hacia adelante (forward propagation) en una red neuronal lineal                                  #
